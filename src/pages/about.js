@@ -2,17 +2,17 @@ import React from "react"
 import Layout from "../components/Layout"
 import { constructFluidImage } from "../utils/constructMockImage"
 
-const Home = () => {
+const About = () => {
   return (
     <div>
       <Layout
-        title="Home"
-        image={constructFluidImage({ width: 1000, height: 700 })}
+        title="About"
+        image={constructFluidImage({ width: 1000, height: 600 })}
       >
-        <h4>Hello world</h4>
+        <h4>About Us</h4>
       </Layout>
     </div>
   )
 }
 
-export default Home
+export default About
